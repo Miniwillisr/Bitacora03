@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificidad</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Spicy+Rice&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <a href="index.html"><img src="img/LogoPersonal.jpg" alt="LogoPersonal" width="110px"></a>
+        </header>
+        <nav>
+            <a href="index.html">Formularios</a>
+            <a href="especificidad.html">Especificidad</a>
+            <a href="pseudo.html">Pseudoelementos</a>
+            <a href="tablas.html">Tablas</a>
+            <a href="header.html">Header</a>
+            <a href="footer.html">Footer</a>
+            <a href="colores.html">Colores</a>
+        </nav>
+        <section>
+            <div class="titulo">
+                <h1>Especificidad</h1>
+            </div>
+            <div class="izquierda">
+                <h2>Ideas Principales</h2>
+                <p>Cuenta con 4 Niveles: </p>
+                <ul>
+                    <li>inline</li>
+                    <li>ID's</li>
+                    <li>Clases, Atributos y Pseudoclases</li>
+                    <li>Elemento y Pseudoelementos</li>
+                </ul>
+            </div>
+            <div class="derecha">
+                <h2>Apuntes</h2>
+                <p>Es el medio por el cual los navegadores deciden que valores de CSS son los mas relevantes para un
+                    elemento y, por lo tanto, se aplicaran. </p>
+                <p>Esto solo se aplica cuando el mismo elemento es el objetivo de varias declaraciones.
+                    Segun las reglas de CSS los elementos diriigidos directamente siempre tienen prioridad sobre las
+                    reglas que hereda un elemento de un antepasado. </p>
+                <p>Cuando varias declaraciones tienen la misma especificidad, la ultima declaracion encontrada en CSS se
+                    aplicara al elemento </p>
+                <img src="img/especificidad.png" alt="Especificidad" width="600px">
+            </div>
+        </section>
+        <footer>
+            <h2>Resumen</h2>
+            <p>La Especificidad nos ayuda a comprender el orden que tienen los lementos al igual que el saber cuales
+                tienen mas prioridad para ser mostradas en la pagina web</p>
+        </footer>
+    </main>
+</body>
+
+</html>
